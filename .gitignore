@@ -129,5 +129,6 @@ dist
 .yarn/install-state.gz
 .pnp.*
 
-# Local .env 
+# Local .env and data
 .env
+items.csv
