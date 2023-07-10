@@ -4,12 +4,17 @@
     "description": "Next stock checker",
     "main": "index.js",
     "scripts": {
-        "dev": "nodemon index.js"
+        "dev": "nodemon -r dotenv/config index.js"
     },
     "keywords": [],
     "author": "Elad Mizrahi",
     "license": "ISC",
     "devDependencies": {
+        "dotenv": "^16.3.1",
         "nodemon": "^3.0.1"
+    },
+    "dependencies": {
+        "axios": "^1.4.0",
+        "cheerio": "^1.0.0-rc.12"
     }
 }
