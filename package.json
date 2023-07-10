@@ -4,7 +4,8 @@
     "description": "Next stock checker",
     "main": "index.js",
     "scripts": {
-        "dev": "nodemon -r dotenv/config index.js"
+        "dev": "nodemon -r dotenv/config index.js",
+        "start": "node index.js"
     },
     "keywords": [],
     "author": "Elad Mizrahi",
