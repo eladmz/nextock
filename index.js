@@ -84,6 +84,7 @@ const main = async () => {
                 await sendToTelegram(url, size, price);
                 sentItems.add(hash);
             }
+            console.log(JSON.stringify({ url, value, inStock, size, price }));
         }
     } catch (err) {
         console.log('Failed to run ', err.toString());
